@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- configure files for mutiple USB cameras -->
+
+<root>
+    <UsbCamera id="1">
+        <device>/dev/video_cam_01</device>
+        <cameraMatrix>0,0,0,0,0,0,0,0,0</cameraMatrix>
+        <distCoeffs>0,0,0,0,0</distCoeffs>
+        <exposure>500</exposure>
+        <fps>30</fps>
+        <resolution_width>640</resolution_width>
+        <resolution_height>480</resolution_height>
+        <brightness>-10</brightness>
+    </UsbCamera>
+
+    <UsbCamera id="2">
+        <device>/dev/video_cam_02</device>
+        <cameraMatrix>0,0,0,0,0,0,0,0,0</cameraMatrix>
+        <distCoeffs>0,0,0,0,0</distCoeffs>
+        <exposure>200</exposure>
+        <fps>30</fps>
+        <resolution_width>640</resolution_width>
+        <resolution_height>480</resolution_height>
+        <brightness>-10</brightness>
+    </UsbCamera>
+
+    <UsbCamera id="3">
+        <device>/dev/video_cam_03</device>
+        <cameraMatrix>0,0,0,0,0,0,0,0,0</cameraMatrix>
+        <distCoeffs>0,0,0,0,0</distCoeffs>
+        <exposure>15</exposure>
+        <fps>30</fps>
+        <resolution_width>640</resolution_width>
+        <resolution_height>480</resolution_height>
+        <brightness>-10</brightness>
+    </UsbCamera>
+
+    <UsbCamera id="4">
+        <device>/dev/video_cam_04</device>
+        <cameraMatrix>0,0,0,0,0,0,0,0,0</cameraMatrix>
+        <distCoeffs>0,0,0,0,0</distCoeffs>
+        <exposure>15</exposure>
+        <fps>30</fps>
+        <resolution_width>640</resolution_width>
+        <resolution_height>480</resolution_height>
+        <brightness>-10</brightness>
+    </UsbCamera>
+
+</root>

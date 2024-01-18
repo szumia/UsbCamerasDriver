@@ -1,0 +1,6 @@
+# ninja log v5
+0	405	1705570689170412105	third_party/CMakeFiles/third_party.dir/tinyxml2.cpp.o	1223cbd8a5437083
+0	1442	1705570690210452819	process_img/CMakeFiles/process_img.dir/process.cpp.o	d83865917933527e
+0	1656	1705570690422461112	CMakeFiles/PlayUsbCameras.dir/main.cpp.o	b32b55d7a53db336
+0	2112	1705570690878478950	CMakeFiles/PlayUsbCameras.dir/usb_camera.cpp.o	7984c710b2f1691c
+2112	2262	1705570691026484739	PlayUsbCameras	d4e540c1b2577a8a

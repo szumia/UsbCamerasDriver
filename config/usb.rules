@@ -1,0 +1,4 @@
+KERNEL =="video[0,2,4,6,8]*",ATTRS{idVendor}== "0edc",ATTRS{idProduct}=="2050",GROUP="video",MODE="0777",SYMLINK+= "video_cam_01"
+
+KERNEL =="video[0,2,4,6,8]*",ATTRS{idVendor}== "0c45",ATTRS{idProduct}=="6366",GROUP="video",MODE="0777",SYMLINK+= "video_cam_02"
+
