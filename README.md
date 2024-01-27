@@ -43,7 +43,7 @@
 * 激活rules后，重新拔插设备即可   
 ```$sudo udevadm control --reload```  
 ```$sudo service udev restart```  
-* 使用v4l查看并更改模组相机参数
+* 使用v4l查看并更改模组相机参数  
 ```安装v4l          $sudo apt install v4l-utils```  
 ```查看能修改的参数   $v4l2-ctl -d /dev/video0 --list-ctrls```  
 ```关闭自动曝光      $v4l2-ctl -d /dev/video0 -c auto_exposure=1```  
