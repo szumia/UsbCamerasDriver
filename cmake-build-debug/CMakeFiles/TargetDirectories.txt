@@ -1,9 +1,0 @@
-/home/nuc/Desktop/ClionProjects/UsbCameras_driver/cmake-build-debug/CMakeFiles/PlayUsbCameras.dir
-/home/nuc/Desktop/ClionProjects/UsbCameras_driver/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/nuc/Desktop/ClionProjects/UsbCameras_driver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/nuc/Desktop/ClionProjects/UsbCameras_driver/cmake-build-debug/third_party/CMakeFiles/third_party.dir
-/home/nuc/Desktop/ClionProjects/UsbCameras_driver/cmake-build-debug/third_party/CMakeFiles/edit_cache.dir
-/home/nuc/Desktop/ClionProjects/UsbCameras_driver/cmake-build-debug/third_party/CMakeFiles/rebuild_cache.dir
-/home/nuc/Desktop/ClionProjects/UsbCameras_driver/cmake-build-debug/process_img/CMakeFiles/process_img.dir
-/home/nuc/Desktop/ClionProjects/UsbCameras_driver/cmake-build-debug/process_img/CMakeFiles/edit_cache.dir
-/home/nuc/Desktop/ClionProjects/UsbCameras_driver/cmake-build-debug/process_img/CMakeFiles/rebuild_cache.dir
