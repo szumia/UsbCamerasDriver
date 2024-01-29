@@ -37,7 +37,7 @@
 * 查看相机设备详细信息，找到对应idVendor和idProduct处的KERNELS值  
 ```$udevadm info -a /dev/video0 ```
 * 将KERNEL =="video[0,2,4,6,8]*",KERNELS == "3-6.3",ATTRS{idVendor}== "0edc",ATTRS{idProduct}=="2050",GROUP="video",MODE="0777",SYMLINK+= "video_cam_01" 写入rules文件
-* KERNELS值不同可以固定相同厂家相同型号相机，idVendor和idProduct对应厂家和型号，SYMLINK是自定义名称
+* KERNELS值不同对应设备的不同USB接口，可以借此固定相同厂家相同型号相机，idVendor和idProduct对应厂家和型号，SYMLINK是自定义名称
 * 将rules文件放入系统
 ```$cp xxx.rules /etc/udev/rules.d```
 * 激活rules后，重新拔插设备即可   
