@@ -17,8 +17,8 @@
 快速上手：
 * 编辑配置文件[usb_camera_cfg.xml](config%2Fusb_camera_cfg.xml)
 * 编辑rulse文件[usb.rules](config%2Fusb.rules)并导入你的系统中
-* $cd cmake-build-debug
-* $./PlayUsbCameras
+```$cd cmake-build-debug```  
+```$./PlayUsbCameras```  
 
 ### USB摄像头驱动相关
 
