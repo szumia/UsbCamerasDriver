@@ -577,6 +577,11 @@ void UsbCamerasManager::record_thread(const int &id)
         this->threads_mutexs[id-1].unlock();
         this->usb_cameras[id-1].record_index++;
 
+        if(src.empty())
+        {
+            continue;
+        }
+
 //        std::cout << "receive_index: " << receive_index << " process_index: " << process_index << " capture_index: " << capture_index << std::endl;
 //        double t1 = getTickCount();
         if(sv.getState())
